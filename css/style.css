@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    transform: translateX(-30%);
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.personal:hover,
+.business:hover,
+.aboutus:hover {
+    background-color: #245529;
+}
+
+.personal:hover .dropdown-content,
+.business:hover .dropdown-content,
+.aboutus:hover .dropdown-content {
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: #6CA342;
+    color: white;
+    height: 80px;
+    line-height: 75px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoheader {
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fa-solid {
+    padding-right: 0.7rem;
+}
+
+.first-content {
+    background-image: url(https://www.web5.com/wp-content/uploads/2019/11/WEB-FEE-2019-Webster-Five-Marketing-Services_Website-Header-Image_03-1800x814.jpg);
+
+}
+
+.slogan {
+    display: block;
+    padding-top: 10rem;
+
+}
+
+.slogan>h1 {
+    background: #498f84;
+    margin-right: 60rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 1.8rem;
+    position: relative;
+    opacity: 0.95;
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
+
+#login {
+    margin-left: 50rem;
+    padding-left: 2rem;
+    height: 18rem;
+    width: 15rem;
+    background-color: #fff;
+    opacity: 0.8;
+}
+.form-heading {
+    font-size: 1.5rem;
+    padding-left: 0.8rem;
+    padding-top: 1.5rem;
+}
+.form-submit    {
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    background-color: rgb(55, 133, 55);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px
+}
+.login-select {
+    text-decoration: none;
+    color: #c88110;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.first-heading {
+    background-color: orange;
+    height: 7.5rem;
+    justify-content: center;
+}
+
+.first-heading>h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.second-heading {
+    background-color: #28a745;
+    height: 7.5rem;
+    justify-content: center;
+}
+
+.second-heading>h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.third-heading {
+    background: linear-gradient(45deg, #3a7b71 0%, #61ada3 100%);
+    height: 7.5rem;
+    justify-content: center;
+}
+
+.third-heading>h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.second-content {
+    background-color: #efdecc;
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+}
+
+.item-image {
+    width: 100%;
+}
+
+.button {
+    color: #c88110;
+    cursor: pointer;
+    display: inline;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.third-content {
+    background-color: #efdecc;
+}
+
+.sub-content {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.image-grid {
+    display: flex;
+    width: 5rem;
+    padding-bottom: 5rem;
+    transition: ease-in-out 0.2s;
+}
+
+.first-image-grid {
+    padding-left: 13rem;
+
+}
+
+.second-image-grid {
+    padding-left: 5rem;
+}
+
+#first-footer {
+    display: flex;
+    background-color: #fff;
+    height: 3.8rem;
+    box-shadow: -10px -10px 5px -5px #888888;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    align-items: center;
+
+}
+
+#second-footer {
+    display: flex;
+    background-color: #2b6a1f;
+    height: 7rem;
+    justify-content: flex-start;
+
+}
+
+#third-footer {
+    display: flex;
+    background-color: #245529;
+    height: 3.5rem;
+    align-items: center;
+    color: #fff;
+    padding-left: 10.5rem;
+    font-size: 0.7rem;
+}
+
+.footer-text {
+    padding-left: 8.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-bottom: 1rem;
+    color: orange;
+}
+
+
+.footer-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    color: orange;
+}
+
+
+.footer-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    color: orange;
+}
+
+
+.footer-options {
+    display: flex;
+    padding-left: 8.3rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #fff;
+    align-items: center;
+
+}
+
+.footer-menu {
+    display: flex;
+    list-style: none;
+}
+
+.footer-menu li {
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.footer-social {
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 30rem;
+}
+
+.list-social {
+    display: flex;
+    list-style: none;
+}
+
+ul.list-social li {
+    cursor: pointer;
+    padding-left: 1.5rem;
+}
+
+.second-item {
+    padding-left: 2rem;
+}
+
+.third-item {
+    padding-left: 2rem;
+}
+
+.fouth-item {
+    padding-left: 2rem;
+}
+
+.copyrighted {
+    padding-left: 40rem;
+}
