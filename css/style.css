@@ -10,6 +10,7 @@ html {
 header {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .dropdown-content {
@@ -88,7 +89,7 @@ header {
 }
 
 #login {
-    margin-left: 50rem;
+    margin-left: 75rem;
     padding-left: 2rem;
     height: 18rem;
     width: 15rem;
@@ -170,7 +171,8 @@ header {
 }
 
 .item-image {
-    width: 100%;
+    width: 370px;
+    height: 230px;
 }
 
 .button {
@@ -198,7 +200,14 @@ header {
     padding-bottom: 5rem;
     transition: ease-in-out 0.2s;
 }
-
+.first-image-grid:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+}
+.second-image-grid:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+}
 .first-image-grid {
     padding-left: 13rem;
 
