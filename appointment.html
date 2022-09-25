@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="./css/appointment.css">
+  <link rel="stylesheet" href="./js/script.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Webster Five</title>
+</head>
+
+<body>
+
+  <form action="" id="appointment">
+    <h1 class="title">Make an in-branch appointment</h1>
+    <em>
+      <p class="sub-title"><strong>Important:</strong> Information submitted in this form is not sent securely. To
+        protect your <br> information, please do
+        not include personal or financial information within this form. This <br> includes account number, social
+        security
+        number, debit card number, etc. If you need to <br> include this type of information, please send your inquiry
+        securely by logging into Digital <br> Banking and sending a secure message.</p>
+    </em>
+    <div class="name">
+      <h3 class="first-name">First Name</h3>
+
+      <h3 class="last-name">Last name</h3>
+
+    </div>
+    <div class="name-inputbox">
+      <input type="text" class="first-name-inputbox">
+      <input type="text" class="last-name-inputbox">
+    </div>
+    <div class="Email">
+      <h3>Email</h3>
+      <input class="email-inputbox" type="text">
+    </div>
+    <div class="Telephone">
+      <h3>Telephone number</h3>
+      <input class="telephone-inputbox" type="text">
+    </div>
+    <div class="yes-no">
+      <h3>Webster Five Customer?</h3>
+      <input type="radio" name="Customer?" value="yes"> Yes<br>
+      <input type="radio" name="Customer?" value="no"> No<br>
+    </div>
+    <div class="select">
+      <h3>What is your inquiry regarding? </h3>
+      <div class="first-select">
+        <select class="first-select-options">
+          <option selected disabled>-Select-</option>
+          <option value="1">Personal Banking</option>
+          <option value="2">Business Banking</option>
+          <option value="3">Personal Loan</option>
+          <option value="4">Business Loan</option>
+          <option value="5">Investments</option>
+          <option value="6">Other</option>
+        </select>
+      </div>
+    </div>
+    <h3>Select location</h3>
+    <div class="second-select">
+      <select class="second-select-options">
+        <option selected disabled>-select-</option>
+        <option value="1">Auburn</option>
+        <option value="2">Dudley</option>
+        <option value="3">Oxford</option>
+        <option value="4">Shrewsbury</option>
+        <option value="5">Webster</option>
+        <option value="6">Worcester - Chandler St</option>
+        <option value="7">Worcester - front St</option>
+      </select>
+    </div>
+    </div>
+    <div class="date">
+      <h3>Select a date for your appointment (please allow 24 hour notice)</h3>
+      <input class="date-inputbox" type="date" name="appointment-date" placeholder="dd/mm/yyyy">
+    </div>
+    <div class="comment">
+      <h3>What would you like to cover at your appointment?</h3>
+      <textarea class="message-area" name="message"></textarea>
+    </div>
+    <h4>Please enter the word you see in the image below:</h4>
+    <BUTTON class="send-button">SEND</BUTTON>
+  </form>
+
+</body>
+
+</html>

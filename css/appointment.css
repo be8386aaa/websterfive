@@ -1,0 +1,108 @@
+
+
+#appointment {
+    display: block;
+    margin-top: 0rem;
+    height: 80rem;
+    width: 40rem;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-left: 25rem;
+    background-color: #fbfbfb;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1rem;
+}
+
+.title {
+    text-align: center;
+
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.name {
+    display: flex;
+
+}
+
+.name-inputbox {
+    display: flex;
+}
+
+.last-name {
+    padding-left: 14.1rem;
+}
+
+.first-name-inputbox {
+    width: 287px;
+    height: 43px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.last-name-inputbox {
+    width: 286px;
+    height: 43px;
+    margin-left: 22px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.email-inputbox {
+    height: 43px;
+    width: 602px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.telephone-inputbox {
+    height: 43px;
+    width: 602px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.date-inputbox {
+    height: 43px;
+    width: 602px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.message-area {
+    width: 602px;
+    min-height: 154px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.select {
+    display: inline;
+}
+
+.send-button {
+    background-color: green;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 191px;
+    height: 50px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.first-select-options {
+    width: 287px;
+    height: 43px;
+    border-radius: 7px 7px 7px 7px;
+}
+.second-select-options {
+    width: 286px;
+    height: 43px;
+    border-radius: 7px 7px 7px 7px;
+}
+.first-select-options {
+    height: 43px;
+    width: 602px;
+    border-radius: 7px 7px 7px 7px;
+}
+.second-select-options {
+    height: 43px;
+    width: 602px;
+    border-radius: 7px 7px 7px 7px;
+}
