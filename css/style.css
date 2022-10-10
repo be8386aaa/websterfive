@@ -21,8 +21,12 @@ header {
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    text-decoration: none;
 }
-
+.dropdown-content>a{
+    text-decoration: none;
+    display: flex;
+}
 .personal:hover,
 .business:hover,
 .aboutus:hover {
@@ -54,7 +58,7 @@ header {
 #logoheader {
     max-width: 60%;
     display: flex;
-    align-items: center;
+    align-items: center;      
     justify-content: center;
 
 }
@@ -64,7 +68,10 @@ header {
 }
 
 .first-content {
-    background-image: url(https://www.web5.com/wp-content/uploads/2019/11/WEB-FEE-2019-Webster-Five-Marketing-Services_Website-Header-Image_03-1800x814.jpg);
+    /* width: 100%; */
+    background-image: url("../img/main-image.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
 
 }
 
@@ -96,12 +103,14 @@ header {
     background-color: #fff;
     opacity: 0.8;
 }
+
 .form-heading {
     font-size: 1.5rem;
     padding-left: 0.8rem;
     padding-top: 1.5rem;
 }
-.form-submit    {
+
+.form-submit {
     width: 10rem;
     height: 2rem;
     color: white;
@@ -110,6 +119,7 @@ header {
     cursor: pointer;
     border-radius: 15px
 }
+
 .login-select {
     text-decoration: none;
     color: #c88110;
@@ -200,14 +210,17 @@ header {
     padding-bottom: 5rem;
     transition: ease-in-out 0.2s;
 }
+
 .first-image-grid:hover {
     transform: scale(1.1);
     transition: ease-in-out 1s;
 }
+
 .second-image-grid:hover {
     transform: scale(1.1);
     transition: ease-in-out 1s;
 }
+
 .first-image-grid {
     padding-left: 13rem;
 
@@ -216,7 +229,23 @@ header {
 .second-image-grid {
     padding-left: 5rem;
 }
+.fourth-content {
+display: flex;
+background-color: rgb(246, 248, 248);
+}
+.donation-image  {
+    width: 599px;
+    height: 598px;
+    padding: 80px 0px 160px 167px;
+}
+.donation {
+    margin: 80px 0px 160px 0px;
 
+    width: 600px;
+    padding: 20px;
+    height: 557px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
 #first-footer {
     display: flex;
     background-color: #fff;
@@ -329,7 +358,7 @@ ul.list-social li {
     padding-left: 2rem;
 }
 
-.fouth-item {
+.fourth-item {
     padding-left: 2rem;
 }
 
